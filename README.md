@@ -1,4 +1,4 @@
-# React hot or cold solution
+# React hot or cold testing challenge
 
-[GitHub](https://github.com/Thinkful-Ed/react-hot-cold)
+[GitHub](https://github.com/TmothyMartel/react-hot-cold-testing)
 
