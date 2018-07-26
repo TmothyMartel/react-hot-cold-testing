@@ -9,6 +9,6 @@ deploy:
   provider: heroku
   api_key:
     secure: WXbtkAPmvFJIFN8mX/ehJBfHtFpzvZBnc/iDunN3NnyIHxdh6U1wwRUUi/1L8RBeNuNLCY25g5xQe8LHIzHj7px944aeFsGO0Aqgn2g/w5c9z5cNAA9QNmbI4+sHGUUvOqjVOp0ZOUcwuf175wolUdkem0A75adsPtzScwmcj2duSp7x0T4f0+patV4GAtVcCLRdtUEzNB+TxhMKD32zggEGmAtb3+jYMfwLAJCwScUG2kqGFfLw9WjYs0UYgsRLqXtQaIL/wjPT4TavyE43vUtMLBoPlYPYK4UU2PwsOp7Awva5v84CWw6V7AfuqGhKUDgN+knLUOWwtX8AFP/Ul6OQdzOK6L/PtS8UFzHUoBGdpyC3VxSv1HXJXBtW+xdRzwMZeRrJz0fDh7XfNoOoohtRLGOUFBz4kLxX/LrkAy2NyWuRL4SlF9SPjF3CRBFCyJrRZd0fPXZwk3xMcChnC9pjIOtSp4KQN2rfq6aRF59xkif25OFDNNS+oSvEsmvtL3MrquntSV5kxhSwU59T7pU9rBGlNUYQfjpeIBAUflf6OyKwd4QBGHpwHoo6ihvy7t+laMG4oL0ybtvYHvN72eHX3wD/iVxytVd7cqjfuqiE1zHeFMW/XGXLNQsknHzR2tnd9n2Co4jcwiTUARsxo2bM6XWl7hY4w3+r2Lh3fiQ=
-  app: https://glacial-woodland-94957.herokuapp.com/
+  app: glacial-woodland-94957
   on:
     repo: TmothyMartel/react-hot-cold-testing
