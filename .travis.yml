@@ -2,6 +2,13 @@ language: node_js
 node_js: node
 cache:
   directories:
-    - node_modules
+  - node_modules
 env:
-  - CI=true
+- CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: WgeJqr7qAjpqmOMAWIMBXbfHqtRa+bS8spl3hoKeTHgeSRwFY/hRha5LorWZJicSfGa5PkNeU339suTW1Q77pSc5etBU1Kv+OnJnWaDQFnT5oBvSxyxnr0znuaFOf+ABxo9aRIdbTf1328HsHjzBiNs9JpD8AFmYDjZOiKgOxfZ+8FOlzTrdrIvv1fcwsPoRjzwm6t11OnT8DraI9arnXJeKBqdlPHSsNPpU1Q0HW1FeyXJoXYLzGezxDqr6qdrfp4sHn6MGWQtt792jHYZSPhruHu/uCNWUfrEDh3ePo06mRTkuxnhSD7NwG3uhB+zxGGiW+X0OunnpN6pInNX609p4K8M9yJelWD6/zNYbROAs03JZV41uhRCko6Xxxtx1x3Rs264P0EIZ9okM2U3t4UxK5BkMXxAE0UYslPOWSu7Kp2x3+VmW4OEMtiNEZ/+0bosKirGr9q+/Lf+7ZuTueHXNvhbITLean9K2NJCc6kYlJ5i6UYPd6eCvcp7zL1IitxBwmSfsdgOVcyJrNnHnWyglfSGduBq9Hezug7CkKphjXWKXtyGlvGJowuGffwRpLjUXqWkCZCPutwPYYxbbDlgU7FE1YpMbl5TQ7FaI6BAuYIdZWRncyttAnYIYnrBp76Rj8umcQKofSUFz5UOQfzYXNoRjHQoz0RcWgf5Uq3g=
+  app: react-hot-cold-testing
+  on:
+    repo: TmothyMartel/react-hot-cold-testing
